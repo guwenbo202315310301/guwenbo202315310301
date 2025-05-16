@@ -14,6 +14,6 @@ app.get('/user',(req,res)=>{
     res.send('GET请求参数已被处理');
 });
 
-app.listen(3000,()=>{
+app.listen(8003,()=>{
     console.log('服务器已启动');
 })
